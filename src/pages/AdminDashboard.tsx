@@ -18,7 +18,6 @@ import { closedLoopItems } from "../data/operational";
 import { closedLoopColor, closedLoopLabel, decayColor } from "../lib/format";
 import { useRole, ROLE_INFO } from "../context/RoleContext";
 import AdminLayout from "../components/AdminLayout";
-import AccessRestricted from "../components/AccessRestricted";
 
 export default function AdminDashboard() {
   const { role, canViewInspektorat } = useRole();

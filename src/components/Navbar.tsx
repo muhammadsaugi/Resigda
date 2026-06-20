@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { Menu, X, Search, ShieldCheck, ChevronDown, Home, FileText, MessageCircleQuestion, ShieldAlert } from "lucide-react";
+import { Menu, X, Search, ShieldCheck, Home, FileText, MessageCircleQuestion, ShieldAlert } from "lucide-react";
 
 const navLinks = [
   { to: "/", label: "Beranda", icon: Home },

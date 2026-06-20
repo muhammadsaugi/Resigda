@@ -9,7 +9,6 @@ import {
   Mic,
   FileSearch,
   CheckCircle2,
-  MapPin,
   Clock,
   Users,
 } from "lucide-react";
